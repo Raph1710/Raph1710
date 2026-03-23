@@ -23,11 +23,10 @@ root@Raphael:~$ whoami
 ```
 
 ```yaml
-name       : Raphael Inamke
-handle     : Raphaelinamke
-role       : Product-focused full-stack engineer
-focus      : Scalable, production-ready applications
-orientation: Backend + system design
+name       : Raphael D'Almeida
+role       : Full-Stack Engineer (Backend-focused)
+focus      : AI systems, scalable backend architecture
+education  : B.Tech CS (Software Product Engineering)
 ```
 
 ```console
@@ -35,8 +34,8 @@ root@Raphael:~$ cat impact.log
 ```
 
 ```
-[+] 25+ production web applications shipped
-[+] 50+ contributors led across teams
+[+] 10+ production web applications shipped
+[+] 5+ contributors led across teams
 [+] 3 production-grade platforms delivered end-to-end
 ```
 
@@ -75,49 +74,57 @@ root@Raphael:~$ ls -la projects/
 ```
 
 ```
-drwxr-xr-x  arcane/
-drwxr-xr-x  distributed-rule-engine/
+drwxr-xr-x  ai-reading-assistant/
+drwxr-xr-x  watchwise/
 ```
 
 ```console
-root@Raphael:~$ cat projects/arcane/README
+root@Raphael:~$ cat projects/ai-reading-assistant/README
 ```
 
 ```
-[PROJECT]  Arcane
-[TYPE]     Property verification platform
-[STACK]    Full-stack
-[IMPACT]   ~50% reduction in manual verification time
-           ~40% improvement in search performance
-```
+[PROJECT]  AI Reading Assistant
+[TYPE]     AI-powered learning platform
+[LIVE]     https://readingassist.netlify.app/
+[CODE]     https://github.com/kalviumcommunity/S72_Raphael_Gen_AI_Learning_assistant
 
+[STACK]    React.js, Node.js, Express.js, MongoDB, Gemini API
+
+[IMPACT]   100+ users
+           1K+ API calls/day handled
+           ~25% reduction in AI response latency
+
+[FEATURES] Real-time explanations
+           Adaptive quiz generation (3 difficulty levels)
+           Personalized learning assistance
+
+[USECASE]  Improves reading comprehension for students,
+           ESL learners, and users with learning difficulties
+```
 ```console
-root@Raphael:~$ cat projects/distributed-rule-engine/README
+root@Raphael:~$ cat projects/watchwise/README
 ```
 
 ```
-[PROJECT]  Real-Time Distributed Rule Engine
-[STACK]    Java 21 + Spring Boot
-[FEATURES] DSL-based rule engine
-           Real-time decision system
-           Conflict resolution
+[PROJECT]  WatchWise
+[TYPE]     AI-powered media tracking platform
+[LIVE]     https://watchwisely.netlify.app/
+[CODE]     https://github.com/kalviumcommunity/S72_Raphael_WatchWise
+
+[STACK]    React.js, Node.js, Express.js, MongoDB, Redux, Docker
+
+[IMPACT]   50+ users
+           ~25% API latency reduction
+           Unified media tracking system
+
+[FEATURES] AI-powered recommendations
+           JWT authentication
+           Cross-platform tracking
+           Personalized watchlists
+
+[USECASE]  Helps users discover and track content across
+           movies, anime, and web series in one place
 ```
-
----
-
-```console
-root@Raphael:~$ cat achievements.txt
-```
-
-```
-[OPEN SOURCE] Hacktoberfest Level 4  — 4+ accepted PRs
-[OPEN SOURCE] C4GT contributor
-
-[HACKATHON]   1st  — Kod-E-Thon '25
-[HACKATHON]   3rd  — Udaan '25
-[HACKATHON]   Top5 — WCE Sangli
-```
-
 ---
 
 ```console
@@ -153,6 +160,7 @@ root@Raphael:~$ cat contact.cfg
 [contact]
 github   = https://github.com/Raph1710
 linkedIn = https://www.linkedin.com/in/raphael-d-almeida-696a22328/
+leetcode = https://leetcode.com/u/Raph13600/
 ```
 
 ```console
