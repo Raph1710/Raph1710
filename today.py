@@ -15,7 +15,7 @@ QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, '
 
 # EDIT ME: the date you started coding professionally / seriously.
 # This powers the "Coding since" line on the card.
-CODING_START_DATE = datetime.datetime(2023, 6, 1)
+CODING_START_DATE = datetime.datetime(2022, 1, 1)
 
 
 def coding_duration(start_date):
